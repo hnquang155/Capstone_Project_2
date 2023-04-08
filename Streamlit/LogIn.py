@@ -52,7 +52,7 @@ if not _RELEASE:
     # hashed_passwords = Hasher(['abc', 'def']).generate()
 
     # Loading config file
-    with open('credential.yaml') as file:
+    with open('/Users/sinhthanhnguyen/GitHub/GitHub/Capstone_Project_2/Streamlit/credential.yaml') as file:
         config = yaml.load(file, Loader=SafeLoader)
 
     # Creating the authenticator object
